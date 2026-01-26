@@ -33,3 +33,6 @@ my-vue3-starter/
 
 # 安装 @types/node
 npm install -D @types/node
+
+# 安装 vue-router
+npm install vue-router@4
