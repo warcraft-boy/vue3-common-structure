@@ -1,4 +1,18 @@
-<script setup></script>
+<script setup>
+import { onMounted } from 'vue';
+import request from './utils/request';
+
+//测试连接springboot 代码开始
+async function invoke() {
+  const result = await request.get('/test/config');
+  console.log(result);
+}
+onMounted(() => {
+  invoke()
+});
+//测试连接springboot 代码结束
+
+</script>
 
 <template>
   <h1>You did it!</h1>
