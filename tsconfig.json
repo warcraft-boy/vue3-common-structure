@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",        // 或 ES2022 / ESNext
+    "module": "ESNext",        // 👈 关键！必须是 ES2020/ES2022/ESNext 等
+    "moduleResolution": "bundler", // 或 "node"（Vite 推荐 "bundler"）
+    "useDefineForClassFields": true,
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": false,   // Vite 推荐设为 false
+    "lib": ["ES2020", "DOM"],
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "types": ["node"] // 👈 可选：显式包含 node 类型（通常不写也能工作）
+  },
+  "include": ["src/**/*", "vite.config.ts"]
+}
