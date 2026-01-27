@@ -15,7 +15,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1>You did it!</h1>
+  <div class="text-center p-6 bg-blue-500 text-white rounded-lg">You did it!</div>
   <p>
     Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
     documentation
