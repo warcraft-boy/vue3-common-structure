@@ -1,9 +1,19 @@
+import { resolveDirective } from 'vue'
 import { createRouter, createWebHashHistory } from 'vue-router'
 
 
 const routes = [
   {
     path: '/',
+    redirect: '/index'
+  },
+  {
+    path: '/index',
+    name: 'index',
+    component: () => import('../views/index.vue')
+  },
+  {
+    path: '/home',
     name: 'Home',
     component: () => import('../views/Home.vue')
   }

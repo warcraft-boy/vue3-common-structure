@@ -36,3 +36,7 @@ npm install -D @types/node
 
 # 安装 vue-router
 npm install vue-router@4
+
+# 安装 tailwindcss注意事项，第一步安装一定要指定版本，否则第二步不成功
+1、npm  install  -D  tailwindcss@3.4.17
+2、npx  tailwindcss  init  -p
