@@ -16,7 +16,7 @@
           <router-link to="/chart" class="block p-3 rounded hover:bg-gray-700 transition">用户管理</router-link>
         </li>
         <li>
-          <router-link to="/home" class="block p-3 rounded hover:bg-gray-700 transition">设置</router-link>
+          <router-link to="/test" class="block p-3 rounded hover:bg-gray-700 transition">设置</router-link>
         </li>
       </ul>
     </nav>
